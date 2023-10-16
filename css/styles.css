@@ -8,6 +8,7 @@
     --SLATE: #434455;
     --CORNFLOWER: #E7E9FC;
     --OCEAN: #404BBF;
+    --LIGHT-SLATE: #8E8F99;
 }
 
 body {
@@ -295,7 +296,62 @@ body {
     align-items: center;
 }
 
+.ts-icon:hover,
+.ts-icon:focus {
+    cursor: pointer;
+}
+
 /* End of Team Member Styling */
+
+/* Customer Styling */
+
+.clients h2 {
+    padding: 120px 0 72px 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE);
+}
+
+.customers-icon {
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    fill: var(--LIGHT-SLATE);
+    width: 168px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+    border-color: var(--IRIS);
+}
+
+.customers-icon svg {
+    fill: var(--LIGHT-SLATE);
+}
+
+.customers-icon:hover svg,
+.customers-icon:focus svg {
+    fill: var(--IRIS);
+}
+
+.list-icon{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 120px;
+    margin-top: 0;
+}
 
 /* Portfolio Styling */
 
@@ -337,11 +393,23 @@ body {
     width: 1440px;
 }
 
+.proj-tab {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
+.proj-tab:hover,
+.proj-tab:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    cursor: pointer;
+}
+
 .proj-list {
     width: 1440px;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    gap: 24px;
 }
 
 .proj-list {
@@ -382,8 +450,14 @@ body {
     font-weight: 800;
     line-height: 116.667%;
     text-decoration: none;
-    text-transform: uppercase;
-     
+    text-transform: uppercase;    
+}
+
+.footer-sm p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    color:var(--WHITE);
 }
 
 .footer-text {
@@ -397,6 +471,36 @@ body {
    padding-top: 100px;
    padding-left: 20px;
 }
+
+.footer-sm {
+    padding: 80px 0 0 120px;
+}
+
+.footer-media {
+    display: flex;
+}
+
+.media-icon{
+    list-style-type: none;
+}
+
+.sm-icon {
+    background-color: var(--IRIS);
+    fill: var(--CLOUD);
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 0;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-left: 0;
+}
+
+
 
 
 
