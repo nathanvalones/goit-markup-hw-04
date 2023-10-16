@@ -172,7 +172,6 @@ body {
     font-weight: 700;
     line-height: 107.143%;
     letter-spacing: 1.12px;
-    background-color: var(--NAVY-BLUE);
     color: var(--WHITE);
     margin: 0px;
 }
@@ -208,6 +207,13 @@ body {
 .hero {
     height: 600px;
     text-align: center;
+}
+
+.hero {
+   background: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .hero-text {
